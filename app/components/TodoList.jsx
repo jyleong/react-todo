@@ -1,6 +1,6 @@
 var React = require('react');
-var Todo = require('Todo');
 var {connect} = require('react-redux');
+import Todo from 'Todo'
 
 export var TodoList = React.createClass({
     render: function() {
